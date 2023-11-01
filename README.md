@@ -6,4 +6,4 @@ Items used in the project : asp .net core 7 + Clean Arch + Cqrs + Fasad + SqlSer
 
 # View
 
-#![Shop_Mobile](WebView/img.jpg)
+![Shop_Mobile](WebView/img.jpg)
