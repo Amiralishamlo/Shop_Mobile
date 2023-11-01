@@ -1,0 +1,11 @@
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\bin\Debug\net7.0\Shop_Mobile.Domain.deps.json
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\bin\Debug\net7.0\Shop_Mobile.Domain.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\bin\Debug\net7.0\Shop_Mobile.Domain.pdb
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\Shop_Mobile.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\Shop_Mobile.Domain.AssemblyInfoInputs.cache
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\Shop_Mobile.Domain.AssemblyInfo.cs
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\Shop_Mobile.Domain.csproj.CoreCompileInputs.cache
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\Shop_Mobile.Domain.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\refint\Shop_Mobile.Domain.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\Shop_Mobile.Domain.pdb
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Domain\obj\Debug\net7.0\ref\Shop_Mobile.Domain.dll
