@@ -1,0 +1,11 @@
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\bin\Debug\net7.0\Shop_Mobile.Common.deps.json
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\bin\Debug\net7.0\Shop_Mobile.Common.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\bin\Debug\net7.0\Shop_Mobile.Common.pdb
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.AssemblyInfoInputs.cache
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.AssemblyInfo.cs
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.csproj.CoreCompileInputs.cache
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\refint\Shop_Mobile.Common.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.pdb
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\ref\Shop_Mobile.Common.dll

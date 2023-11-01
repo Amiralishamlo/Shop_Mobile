@@ -4,14 +4,98 @@
     "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj": {
+    "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Application\\Shop_Mobile.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj",
-        "projectName": "Shop_Mobile.Persistence",
-        "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Application\\Shop_Mobile.Application.csproj",
+        "projectName": "Shop_Mobile.Application",
+        "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Application\\Shop_Mobile.Application.csproj",
         "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Common\\Shop_Mobile.Common.csproj": {
+                "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Common\\Shop_Mobile.Common.csproj"
+              },
+              "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Domain\\Shop_Mobile.Domain.csproj": {
+                "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Domain\\Shop_Mobile.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Common\\Shop_Mobile.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Common\\Shop_Mobile.Common.csproj",
+        "projectName": "Shop_Mobile.Common",
+        "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Common\\Shop_Mobile.Common.csproj",
+        "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +123,142 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Domain\\Shop_Mobile.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Domain\\Shop_Mobile.Domain.csproj",
+        "projectName": "Shop_Mobile.Domain",
+        "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Domain\\Shop_Mobile.Domain.csproj",
+        "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj",
+        "projectName": "Shop_Mobile.Persistence",
+        "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\Shop_Mobile.Persistence.csproj",
+        "packagesPath": "C:\\Users\\amira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Application\\Shop_Mobile.Application.csproj": {
+                "projectPath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\Shop_Mobile.Application\\Shop_Mobile.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

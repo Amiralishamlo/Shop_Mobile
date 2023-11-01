@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -51,7 +50,21 @@
                         <li class="has-sub nav-item">
                             <a href="#"><i class="icon-home"></i><span data-i18n="" class="menu-title">داشبورد</span><span class="tag badge badge-pill badge-danger mt-1">2</span></a>
                         </li>
-               
+
+
+
+                        <li class="has-sub nav-item">
+                            <a href="#"><i class="icon-users"></i><span data-i18n="" class="menu-title">مدیریت کاربران</span></a>
+                            <ul class="menu-content">
+                                <li class="active">
+                                    <a href="~/admin/users/index" class="menu-item">لیست کاربران</a>
+                                </li>
+                                <li>
+                                    <a href="~/admin/users/Create" class="menu-item">ثبت نام کاربر جدید *</a>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -135,7 +148,7 @@
 
         <div class="main-panel">
             <div class="main-content">
-               @RenderBody()
+                @RenderBody()
             </div>
 
             <footer class="footer footer-static footer-light">
@@ -375,7 +388,7 @@
     </div>
     <!-- BEGIN VENDOR JS-->
 
-    
+
     <script src="~/AdminTemplate/app-assets/vendors/js/core/jquery-3.3.1.min.js"></script>
     <script src="~/AdminTemplate/app-assets/js/persian-datepicker.min.js"></script>
     <script src="~/AdminTemplate/app-assets/vendors/js/core/popper.min.js"></script>

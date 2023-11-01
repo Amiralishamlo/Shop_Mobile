@@ -1,7 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using Shop_Mobile.Application.Interfaces.Contexts;
+using Shop_Mobile.Application.Services.Users.Queries.GetRoles;
+using Shop_Mobile.Application.Services.Users.Queries.GetUsers;
+using Shop_Mobile.Persistence.Contexts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddScoped<IDataBaseContext, DataBaseContext>();
+builder.Services.AddScoped<IGetUsersService, GetUsersService>();
+builder.Services.AddScoped<IGetRolesService, GetRolesService>();
+
+
+builder.Services.AddDbContext<DataBaseContext>(x => 
+x.UseSqlServer(builder.Configuration.GetConnectionString("Shop_Mobile")));
+
 
 var app = builder.Build();
 

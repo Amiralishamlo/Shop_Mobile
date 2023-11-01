@@ -1,0 +1,11 @@
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\bin\Debug\net7.0\ShopMobile.Infrastructure.deps.json
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\bin\Debug\net7.0\ShopMobile.Infrastructure.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\bin\Debug\net7.0\ShopMobile.Infrastructure.pdb
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ShopMobile.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ShopMobile.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ShopMobile.Infrastructure.AssemblyInfo.cs
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ShopMobile.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ShopMobile.Infrastructure.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\refint\ShopMobile.Infrastructure.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ShopMobile.Infrastructure.pdb
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\ShopMobile.Infrastructure\obj\Debug\net7.0\ref\ShopMobile.Infrastructure.dll

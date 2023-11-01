@@ -17,17 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{76945E27-64F8-4D3B-A228-D5C6636FD28A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_Mobile.Domain", "Shop_Mobile.Domain\Shop_Mobile.Domain.csproj", "{E637C6C5-D7B4-49C7-B8FB-8FEEDC6B87A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop_Mobile.Domain", "Shop_Mobile.Domain\Shop_Mobile.Domain.csproj", "{E637C6C5-D7B4-49C7-B8FB-8FEEDC6B87A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_Mobile.Application", "Shop_Mobile.Application\Shop_Mobile.Application.csproj", "{390456BC-31AB-43A1-A209-7EB5A97ADF04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop_Mobile.Application", "Shop_Mobile.Application\Shop_Mobile.Application.csproj", "{390456BC-31AB-43A1-A209-7EB5A97ADF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopMobile.Infrastructure", "ShopMobile.Infrastructure\ShopMobile.Infrastructure.csproj", "{6A4D1BCC-C0FA-497F-BD1B-6C058BEB22D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMobile.Infrastructure", "ShopMobile.Infrastructure\ShopMobile.Infrastructure.csproj", "{6A4D1BCC-C0FA-497F-BD1B-6C058BEB22D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_Mobile.Persistence", "Shop_Mobile.Persistence\Shop_Mobile.Persistence.csproj", "{3F3B158B-EE83-48A4-83D4-FAD3EDE1184E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop_Mobile.Persistence", "Shop_Mobile.Persistence\Shop_Mobile.Persistence.csproj", "{3F3B158B-EE83-48A4-83D4-FAD3EDE1184E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndPoint.Site", "EndPoint.Site\EndPoint.Site.csproj", "{41ED6575-87D1-477C-956B-E5726EF948B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndPoint.Site", "EndPoint.Site\EndPoint.Site.csproj", "{41ED6575-87D1-477C-956B-E5726EF948B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop_Mobile.Common", "Shop_Mobile.Common\Shop_Mobile.Common.csproj", "{BA3DDFFC-E168-465B-8073-BBD1A15D1D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop_Mobile.Common", "Shop_Mobile.Common\Shop_Mobile.Common.csproj", "{BA3DDFFC-E168-465B-8073-BBD1A15D1D69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
