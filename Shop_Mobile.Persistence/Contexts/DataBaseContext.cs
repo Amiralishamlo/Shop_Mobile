@@ -3,6 +3,7 @@ using Shop_Mobile.Application.Interfaces.Contexts;
 using Shop_Mobile.Common.Roles;
 using Shop_Mobile.Domain.Entites.Products;
 using Shop_Mobile.Domain.Entites.Users;
+using System.Reflection.PortableExecutable;
 
 namespace Shop_Mobile.Persistence.Contexts
 {
@@ -15,6 +16,9 @@ namespace Shop_Mobile.Persistence.Contexts
         public DbSet<UserInRole> UserInRoles { get; set; }
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductImages> ProductImages { get; set; }
+        public DbSet<ProductFeatures> ProductFeatures { get; set; }
 
         public DataBaseContext(DbContextOptions<DataBaseContext> options):base(options)
         {

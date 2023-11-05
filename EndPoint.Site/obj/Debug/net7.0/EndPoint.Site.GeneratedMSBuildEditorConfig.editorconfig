@@ -24,6 +24,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/amira/OneDrive/Desktop/Shop_Mobile/Source/Shop_Mobile/EndPoint.Site/Areas/Admin/Views/Products/AddNewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcQWRkTmV3UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amira/OneDrive/Desktop/Shop_Mobile/Source/Shop_Mobile/EndPoint.Site/Areas/Admin/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/amira/OneDrive/Desktop/Shop_Mobile/Source/Shop_Mobile/EndPoint.Site/Areas/Admin/Views/Shared/_Adminlayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbmxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
