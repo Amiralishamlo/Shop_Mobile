@@ -2,9 +2,9 @@
 
 namespace Shop_Mobile.Application.Services.Users.Commands.RegisterUser
 {
-    public interface IRgegisterUserService
+    public interface IRegisterUserService
     {
-        ResultDto<ResultRgegisterUserDto> Execute(RequestRgegisterUserDto request);
+        ResultDto<ResultRegisterUserDto> Execute(RequestRegisterUserDto request);
     }
 
 }

@@ -9,3 +9,4 @@ C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Commo
 C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\refint\Shop_Mobile.Common.dll
 C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.pdb
 C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\ref\Shop_Mobile.Common.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\Shop_Mobile.Common\obj\Debug\net7.0\Shop_Mobile.Common.csproj.AssemblyReference.cache

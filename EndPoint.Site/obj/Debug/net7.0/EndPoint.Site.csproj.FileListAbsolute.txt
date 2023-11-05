@@ -81,3 +81,5 @@ C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\EndPoint.Site\obj
 C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\EndPoint.Site\obj\Debug\net7.0\EndPoint.Site.pdb
 C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\EndPoint.Site\obj\Debug\net7.0\EndPoint.Site.genruntimeconfig.cache
 C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\EndPoint.Site\obj\Debug\net7.0\ref\EndPoint.Site.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\EndPoint.Site\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\amira\OneDrive\Desktop\Shop_Mobile\Source\Shop_Mobile\EndPoint.Site\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll

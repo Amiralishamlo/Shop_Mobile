@@ -58,6 +58,7 @@ public class GetUsersService : IGetUsersService
             Email = p.Email,
             FullName = p.FullName,
             Id = p.Id,
+            IsActive = p.IsActive
         }).ToList();
 
         return new ReslutGetUserDto

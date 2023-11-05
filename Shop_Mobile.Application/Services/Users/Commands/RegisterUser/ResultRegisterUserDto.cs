@@ -1,9 +1,10 @@
 ﻿namespace Shop_Mobile.Application.Services.Users.Commands.RegisterUser
 {
-    public class ResultRgegisterUserDto
+    public class ResultRegisterUserDto
     {
         public long UserId { get; set; }
 
     }
+
 
 }

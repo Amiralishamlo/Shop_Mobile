@@ -2029,6 +2029,14 @@
       "PackagePath": "staticwebassets\\SiteTemplate\\assets\\js\\vendor\\wNumb.js"
     },
     {
+      "Id": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\Sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\Sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\Sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\Sweetalert2\\sweetalert2.min.js"
+    },
+    {
       "Id": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

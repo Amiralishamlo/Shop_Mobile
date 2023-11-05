@@ -22,6 +22,10 @@ namespace Shop_Mobile.Persistence.Contexts
             modelBuilder.Entity<Role>().HasData(new Role { Id = 1, Name = nameof(UserRoles.Admin) });
             modelBuilder.Entity<Role>().HasData(new Role { Id = 2, Name = nameof(UserRoles.Operator) });
             modelBuilder.Entity<Role>().HasData(new Role { Id = 3, Name = nameof(UserRoles.Customer) });
+
+            modelBuilder.Entity<User>().HasIndex(x => x.Email).IsUnique();
+
+            modelBuilder.Entity<User>().HasQueryFilter(x =>!x.IsRemoved);
         }
     }
 }
