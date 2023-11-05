@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Shop_Mobile.Domain.Entites.Products;
 using Shop_Mobile.Domain.Entites.Users;
 
 namespace Shop_Mobile.Application.Interfaces.Contexts
@@ -10,6 +11,9 @@ namespace Shop_Mobile.Application.Interfaces.Contexts
         DbSet<Role> Roles { get; set; }
 
         DbSet<UserInRole> UserInRoles { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
 
         int SaveChanges(bool acceptAllChangesOnSuccess);
         int SaveChanges();

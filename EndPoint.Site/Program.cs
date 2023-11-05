@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Shop_Mobile.Application.Interfaces.Contexts;
+using Shop_Mobile.Application.Interfaces.FacadPatterns;
+using Shop_Mobile.Application.Services.Products.FacadPattern;
 using Shop_Mobile.Application.Services.Users.Commands.EditUser;
 using Shop_Mobile.Application.Services.Users.Commands.LoginUser;
 using Shop_Mobile.Application.Services.Users.Commands.RegisterUser;
@@ -36,7 +38,8 @@ builder.Services.AddScoped<IUserSatusChangeService, UserSatusChangeService>();
 builder.Services.AddScoped<IEditUserService, EditUserService>();
 builder.Services.AddScoped<IUserLoginService, UserLoginService>();
 
-
+//Facad Inject
+builder.Services.AddScoped<IProductFacad, ProductFacad>();
 
 builder.Services.AddDbContext<DataBaseContext>(x => 
 x.UseSqlServer(builder.Configuration.GetConnectionString("Shop_Mobile")));

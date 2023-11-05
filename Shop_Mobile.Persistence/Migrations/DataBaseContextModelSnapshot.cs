@@ -22,6 +22,40 @@ namespace Shop_Mobile.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Shop_Mobile.Domain.Entites.Products.Category", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("InsertTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long?>("ParentCategoryId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentCategoryId");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("Shop_Mobile.Domain.Entites.Users.Role", b =>
                 {
                     b.Property<long>("Id")
@@ -30,9 +64,21 @@ namespace Shop_Mobile.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<DateTime>("InsertTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -42,16 +88,22 @@ namespace Shop_Mobile.Persistence.Migrations
                         new
                         {
                             Id = 1L,
+                            InsertTime = new DateTime(2023, 11, 5, 16, 49, 50, 834, DateTimeKind.Local).AddTicks(8425),
+                            IsRemoved = false,
                             Name = "Admin"
                         },
                         new
                         {
                             Id = 2L,
+                            InsertTime = new DateTime(2023, 11, 5, 16, 49, 50, 834, DateTimeKind.Local).AddTicks(8462),
+                            IsRemoved = false,
                             Name = "Operator"
                         },
                         new
                         {
                             Id = 3L,
+                            InsertTime = new DateTime(2023, 11, 5, 16, 49, 50, 834, DateTimeKind.Local).AddTicks(8471),
+                            IsRemoved = false,
                             Name = "Customer"
                         });
                 });
@@ -107,8 +159,20 @@ namespace Shop_Mobile.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<DateTime>("InsertTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRemoved")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("RemoveTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<long>("RoleId")
                         .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<long>("UserId")
                         .HasColumnType("bigint");
@@ -120,6 +184,15 @@ namespace Shop_Mobile.Persistence.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserInRoles");
+                });
+
+            modelBuilder.Entity("Shop_Mobile.Domain.Entites.Products.Category", b =>
+                {
+                    b.HasOne("Shop_Mobile.Domain.Entites.Products.Category", "ParentCategory")
+                        .WithMany("SubCategories")
+                        .HasForeignKey("ParentCategoryId");
+
+                    b.Navigation("ParentCategory");
                 });
 
             modelBuilder.Entity("Shop_Mobile.Domain.Entites.Users.UserInRole", b =>
@@ -139,6 +212,11 @@ namespace Shop_Mobile.Persistence.Migrations
                     b.Navigation("Role");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Shop_Mobile.Domain.Entites.Products.Category", b =>
+                {
+                    b.Navigation("SubCategories");
                 });
 
             modelBuilder.Entity("Shop_Mobile.Domain.Entites.Users.Role", b =>
