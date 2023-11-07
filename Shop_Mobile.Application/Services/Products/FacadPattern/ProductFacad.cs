@@ -5,6 +5,9 @@ using Shop_Mobile.Application.Services.Products.Commands.AddNewCategory;
 using Shop_Mobile.Application.Services.Products.Commands.AddNewProduct;
 using Shop_Mobile.Application.Services.Products.Queries.GetAllCategories;
 using Shop_Mobile.Application.Services.Products.Queries.GetCategories;
+using Shop_Mobile.Application.Services.Products.Queries.GetProductDetailForAdmin;
+using Shop_Mobile.Application.Services.Products.Queries.GetProductForAdmin;
+using Shop_Mobile.Application.Services.Products.Queries.GetProductForSite;
 
 namespace Shop_Mobile.Application.Services.Products.FacadPattern
 {
@@ -48,6 +51,34 @@ namespace Shop_Mobile.Application.Services.Products.FacadPattern
             get
             {
                 return _getAllCategoriesService = _getAllCategoriesService ?? new GetAllCategoriesService(_context);
+            }
+        }
+        private IGetProductForAdminService _getProductForAdminService;
+        public IGetProductForAdminService GetProductForAdminService
+        {
+            get
+            {
+                return _getProductForAdminService = _getProductForAdminService ?? new GetProductForAdminService(_context);
+            }
+        }
+
+
+        private IGetProductDetailForAdminService _getProductDetailForAdminService;
+        public IGetProductDetailForAdminService GetProductDetailForAdminService
+        {
+            get
+            {
+                return _getProductDetailForAdminService = _getProductDetailForAdminService ?? new GetProductDetailForAdminService(_context);
+            }
+        }
+
+
+        private IGetProductForSiteService _getProductForSiteService;
+        public IGetProductForSiteService GetProductForSiteService
+        {
+            get
+            {
+                return _getProductForSiteService = _getProductForSiteService ?? new GetProductForSiteService(_context);
             }
         }
     }

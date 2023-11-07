@@ -2045,6 +2045,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\images\\ProductImages\\6383498199866199769c6adac99093d0e74f6b36b074eab5d70c5c7946_1659443921.webp",
+      "PackagePath": "staticwebassets\\images\\ProductImages\\6383498199866199769c6adac99093d0e74f6b36b074eab5d70c5c7946_1659443921.webp"
+    },
+    {
       "Id": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

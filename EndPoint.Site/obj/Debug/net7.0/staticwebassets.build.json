@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ngDjwXtkKi+v6QBJHx8gPKZ7f46YR2Syy6HvjhUGZ2E=",
+  "Hash": "V/HID11bNtm6CbZ3TKjizx8PiwcUf9YSB3TF0+qyStU=",
   "Source": "EndPoint.Site",
   "BasePath": "_content/EndPoint.Site",
   "Mode": "Default",
@@ -5795,6 +5795,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\images\\ProductImages\\6383498199866199769c6adac99093d0e74f6b36b074eab5d70c5c7946_1659443921.webp",
+      "SourceId": "EndPoint.Site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\",
+      "BasePath": "_content/EndPoint.Site",
+      "RelativePath": "images/ProductImages/6383498199866199769c6adac99093d0e74f6b36b074eab5d70c5c7946_1659443921.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ProductImages\\6383498199866199769c6adac99093d0e74f6b36b074eab5d70c5c7946_1659443921.webp"
     },
     {
       "Identity": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\wwwroot\\js\\site.js",

@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "EndPoint.Site/1.0.0": {
         "dependencies": {
+          "LazZiya.ExpressLocalization": "4.0.4",
+          "LazZiya.TagHelpers": "6.0.2",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
@@ -58,6 +60,22 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "LazZiya.ExpressLocalization/4.0.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/LazZiya.ExpressLocalization.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.0.4.0"
+          }
+        }
+      },
+      "LazZiya.TagHelpers/6.0.2": {
+        "runtime": {
+          "lib/net6.0/LazZiya.TagHelpers.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
           }
         }
       },
@@ -675,6 +693,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "LazZiya.ExpressLocalization/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qA4iHvWtRajnAGYUHzm493RbqAYPgk7xVqn2WHupd0gLeKMdXsV2PoSMCceCVb1BOhjbJLmBdAkR3UfzHIvpZQ==",
+      "path": "lazziya.expresslocalization/4.0.4",
+      "hashPath": "lazziya.expresslocalization.4.0.4.nupkg.sha512"
+    },
+    "LazZiya.TagHelpers/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qYWVS9Mx61jmYrI+iNhw6vyH5u4W/VsAy0aTeKplNDU63K2WVSI7RdvWKSXuti0kZn+iQGkwpHz820ukCTTpPQ==",
+      "path": "lazziya.taghelpers/6.0.2",
+      "hashPath": "lazziya.taghelpers.6.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.13": {
       "type": "package",

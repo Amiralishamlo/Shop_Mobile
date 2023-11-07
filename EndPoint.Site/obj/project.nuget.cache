@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "VI52awlTmdA8FD4UTHfD6zJtKLrdcqGjxi4y4DI1H1QSqGLtQfnqk6Ts2Ue72DAGz5Zeu6HFgAKWdbZk3ww3tg==",
+  "dgSpecHash": "dY+AkCWAZ2fkeBVrBTc7O33AQ/Ch0zycadYCoN/LCXzNoW90l5cxemvSoiyCuFRQ+ZhXzZPaJZkvG+4Uo9lCsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\amira\\OneDrive\\Desktop\\Shop_Mobile\\Source\\Shop_Mobile\\EndPoint.Site\\EndPoint.Site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amira\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\amira\\.nuget\\packages\\lazziya.expresslocalization\\4.0.4\\lazziya.expresslocalization.4.0.4.nupkg.sha512",
+    "C:\\Users\\amira\\.nuget\\packages\\lazziya.taghelpers\\6.0.2\\lazziya.taghelpers.6.0.2.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.13\\microsoft.aspnetcore.cryptography.internal.7.0.13.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.13\\microsoft.aspnetcore.cryptography.keyderivation.7.0.13.nupkg.sha512",
     "C:\\Users\\amira\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",

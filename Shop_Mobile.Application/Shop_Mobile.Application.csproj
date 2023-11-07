@@ -24,4 +24,8 @@
 	  <ProjectReference Include="..\Shop_Mobile.Common\Shop_Mobile.Common.csproj" />
 	  <ProjectReference Include="..\Shop_Mobile.Domain\Shop_Mobile.Domain.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Services\Products\Queries\GetProductDetailForSite\" />
+	</ItemGroup>
 </Project>
